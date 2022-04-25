@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Secfi.Authentication.Core\Secfi.Authentication.Core.csproj" />
+        <ProjectReference Include="..\Secfi.Authentication.Domain\Secfi.Authentication.Domain.csproj" />
+        <ProjectReference Include="..\Secfi.Authentication.Infrastructure\Secfi.Authentication.Infrastructure.csproj" />
+    </ItemGroup>
+
+</Project>
