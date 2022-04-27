@@ -12,6 +12,12 @@ namespace Secfi.Authentication.Core.ResponseContainers
 			IsSuccess = true;
 		}
 
+		public void SetErrorValue(T value, string message)
+		{
+			Value = value;
+			AddErrorMessage(message);
+		}
+
 		public new IResponseContainerWithValue<T> JoinWith(IResponseContainer anotherResponseContainer)
 		{
 			base.JoinWith(anotherResponseContainer);
