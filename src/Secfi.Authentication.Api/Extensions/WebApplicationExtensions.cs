@@ -1,5 +1,4 @@
 ﻿using Microsoft.Net.Http.Headers;
-using Secfi.Authentication.Infrastructure.DataAccess;
 
 namespace Secfi.Authentication.Api.Extensions;
 
